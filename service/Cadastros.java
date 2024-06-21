@@ -231,8 +231,10 @@ public class Cadastros {
 	}
 
 	public void listarFuncionariosOrdemAlfabetica() {
-		// Primeiro vou ordenar os funcionarios por ordem alfabetica em uma nova lista
+		// Crio uma nova lista para não alterar a lista original
 		List<Funcionario> funcionariosOrdenados = new ArrayList<>(listaFuncionarios);
+
+		// Primeiro vou ordenar os funcionarios por ordem alfabetica na nova lista
 
 		Collections.sort(funcionariosOrdenados, new Comparator<Funcionario>() {
 			@Override
@@ -241,7 +243,6 @@ public class Cadastros {
 			}
 		});
 
-		// Agora eu imprimo os funcionarios
 		for (Funcionario funcionarioOrdenado : funcionariosOrdenados) {
 			imprimirFuncionario(funcionarioOrdenado);
 		}
