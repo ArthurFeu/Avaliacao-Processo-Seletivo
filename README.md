@@ -1,6 +1,6 @@
-# Bem-vindo ao Teste de Candidatura
+# Bem-vindo ao meu Teste
 
-Olá! Fico muito contente por você estar aqui interessado na minha candidatura.
+Olá! Eu sou o Arthur e fico muito contente por você estar aqui interessado na minha candidatura.
 
 Este teste foi desenvolvido seguindo rigorosamente as especificações fornecidas. No entanto, optei por implementá-lo da maneira como normalmente programo, deixando as respostas principais dentro da classe `Principal`.
 
